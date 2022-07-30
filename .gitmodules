@@ -1,0 +1,6 @@
+[submodule "rust-api"]
+	path = rust-api
+	url = https://github.com/DrunkenToast/rust-api
+[submodule "nextjs-frontend"]
+	path = nextjs-frontend
+	url = https://github.com/DrunkenToast/nextjs-frontend
