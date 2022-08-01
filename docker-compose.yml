@@ -14,9 +14,7 @@ services:
     devices:
       - "/dev/ttyACM0:/dev/ttyACM0"
     volumes:
-      - type: bind
-        source: ./db.db3
-        target: /db.db3
+      - "./db.db3:/db.db3"
     healthcheck:
       test: curl --fail http://localhost:3000/health || exit 1
       interval: 5s
