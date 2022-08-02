@@ -4,3 +4,6 @@
 [submodule "nextjs-frontend"]
 	path = nextjs-frontend
 	url = https://github.com/DrunkenToast/nextjs-frontend
+[submodule "rust-arduino"]
+	path = rust-arduino
+	url = https://github.com/DrunkenToast/rust-arduino
