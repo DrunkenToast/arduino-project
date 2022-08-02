@@ -1,7 +1,7 @@
 # Docker Arduino Project
 
-Project to learn Rust and Next.js.
-Arduino and API are both written in Rust, they communicate with a simple protocol and handshake to set up communication.
+Project to learn Rust and Next.js.  
+[Arduino](https://github.com/DrunkenToast/rust-arduino) and API are both written in Rust, they communicate with a simple protocol and handshake to set up communication.
 
 The Arduino will listen to actions such as displaying a message and switching the LED, but also serves DHT measurements.
 The API uses threading and a mutex to make sure the Arduino only processes one request at a time, while the rest of the API is not blocked.
